@@ -1,0 +1,24 @@
+npm install -D babel-loader @babel/core @babel/preset-env
+$ npm i html-webpack-plugin --save-dev
+nmp i mini-css-extract-plugin css-loader --save-dev
+npm i clean-webpack-plugin --save-dev
+npm i jquery popper.js --save
+
+
+npm install bootstrap --save
+npm install sass-loader node-sass webpack --save-dev
+
+fix error for --mode production
+it's a bug and you can fix it by installing terser v3.14
+npm install terser@3.14.1 --save-dev
+
+npm i optimize-css-assets-webpack-plugin
+
+npm i file-loader image-webpack-loader --save-dev
+                  ^^^ error! solve:
+npm install --save-dev pngquant-bin
+npm install --save-dev pngquant --msvs_version=2013
+
+again!:
+npm i file-loader --save-dev
+npm i image-webpack-loader --save-dev
